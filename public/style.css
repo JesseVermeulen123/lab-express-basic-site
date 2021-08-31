@@ -15,7 +15,7 @@ body {
     align-items: center;
     background: darkblue;
     color: white;
-
+    margin: 0;
 }
 
 .nav {
@@ -28,6 +28,11 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+.nav a {
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .titles {
@@ -49,6 +54,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     height:  100vh;
+    margin: 8px;
 }
 
 .mainpage .titles {
@@ -61,6 +67,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     height:  100vh;
+    padding: 32px;
 }
 
 .about .titles {
@@ -73,6 +80,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     height:  100vh;
+    padding: 32px;
 }
 
 .topkills .titles {
