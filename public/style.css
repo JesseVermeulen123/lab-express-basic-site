@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('./fonts/GameofThrones.woff2') format('woff2'),
+        url('./fonts/GameofThrones.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Game of Thrones';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+    color: white;
+
+}
+
+.nav {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    background-color: white;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles {
+    font-size: 2.5rem;
+    /* color: darkblue; */
+    letter-spacing: 0.3rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainpage {
+    background-image: url(./images/arya-stark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  100vh;
+}
+
+.mainpage .titles {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.about {
+    background-image: url(./images/arya-stark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  100vh;
+}
+
+.about .titles {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.topkills {
+    background-image: url(./images/arya-stark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  100vh;
+}
+
+.topkills .titles {
+    font-size: 2.5rem;
+    color: white;
+}
